@@ -2,14 +2,25 @@
 
 Cursor Agent Skills 合集仓库。每个 skill 是一个目录，内含必需的 `SKILL.md`。
 
+## 已收录 Skills
+
+| Skill | 说明 |
+|-------|------|
+| [`skill-desc-zh`](skills/skill-desc-zh/SKILL.md) | 安装/同步 skill 后，自动汉化 `SKILL.md` 的 `description`（列表简介） |
+| [`example-skill`](skills/example-skill/SKILL.md) | 新建 skill 用的模板 |
+
 ## 目录结构
 
 ```
 skills/
+  skill-desc-zh/
+    SKILL.md
   example-skill/
-    SKILL.md          # 必需：YAML frontmatter + 使用说明
-    scripts/          # 可选：辅助脚本
-    references/       # 可选：参考资料
+    SKILL.md          # 模板：YAML frontmatter + 使用说明
+  <your-skill>/
+    SKILL.md
+    scripts/          # 可选
+    references/       # 可选
 ```
 
 ## 如何添加 skill
