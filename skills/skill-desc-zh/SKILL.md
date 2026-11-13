@@ -4,13 +4,16 @@ description: "【徐原创】下载、安装、同步、复制或更新 Agent Sk
 metadata:
   author: weixuan-XU
   author_name: 徐
+compatibility: "Cursor、Claude Code、Codex。Agent Skills 标准：目录内 SKILL.md，frontmatter 含 name 与 description。"
 ---
 
 # Skill 简介自动汉化（徐原创）
 
 作者：徐（[weixuan-XU](https://github.com/weixuan-XU)）
 
-装完 skill 不等于完成。只要本轮新增或更新了 skill，就立刻汉化其 `description`，让 Cursor skill 列表显示中文简介。
+兼容：Cursor、Claude Code、Codex（同一份 `SKILL.md`）。
+
+装完 skill 不等于完成。只要本轮新增或更新了 skill，就立刻汉化其 `description`，让 Cursor、Claude Code、Codex 的 skill 列表显示中文简介。
 
 ## 何时触发
 
@@ -25,9 +28,10 @@ metadata:
 
 | 做 | 不做 |
 |---|---|
-| `~/.cursor/skills/<name>/SKILL.md` | `~/.cursor/skills-cursor/`（Cursor 内置，改了会被覆盖） |
-| 项目内 `.cursor/skills/<name>/SKILL.md` | 项目 `.claude/skills/` 除非用户明确要求 |
-| 本轮新装或覆盖更新的 skill | 无关、未改动的旧 skill（除非用户说「全部汉化」） |
+| `~/.cursor/skills/`、项目 `.cursor/skills/`（Cursor） | `~/.cursor/skills-cursor/`（Cursor 内置，改了会被覆盖） |
+| `~/.claude/skills/`、项目 `.claude/skills/`（Claude Code） | 无关、未改动的旧 skill（除非用户说「全部汉化」） |
+| `~/.agents/skills/`、项目 `.agents/skills/`（Codex，Cursor 也会读） | |
+| 本轮新装或覆盖更新的 skill | |
 
 ## 汉化规则（只改 description）
 

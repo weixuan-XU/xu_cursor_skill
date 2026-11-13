@@ -4,12 +4,15 @@ description: "【徐原创】示例 skill 模板。创建新 skill 时复制本�
 metadata:
   author: weixuan-XU
   author_name: 徐
+compatibility: "Cursor、Claude Code、Codex。Agent Skills 标准：目录内 SKILL.md，frontmatter 含 name 与 description。"
 disable-model-invocation: true
 ---
 
 # Example Skill（徐原创模板）
 
 作者：徐（[weixuan-XU](https://github.com/weixuan-XU)）
+
+兼容：Cursor、Claude Code、Codex（同一份 `SKILL.md`）。`disable-model-invocation` 在 Cursor 与 Claude Code 中生效；Codex 会忽略该字段，仍可读正文。
 
 把本文件改成你的 skill 说明。Agent 会按这里的步骤执行。
 
