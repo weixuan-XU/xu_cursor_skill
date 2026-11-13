@@ -1,12 +1,15 @@
 ---
 name: example-skill
-description: >-
-  示例 skill 模板。创建新 skill 时复制本目录并改名；仅在用户明确提到
-  example-skill 或「示例 skill」时使用，不要自动触发。
+description: "【徐原创】示例 skill 模板。创建新 skill 时复制本目录并改名；仅在用户明确提到 example-skill 或「示例 skill」时使用，不要自动触发。"
+metadata:
+  author: weixuan-XU
+  author_name: 徐
 disable-model-invocation: true
 ---
 
-# Example Skill
+# Example Skill（徐原创模板）
+
+作者：徐（[weixuan-XU](https://github.com/weixuan-XU)）
 
 把本文件改成你的 skill 说明。Agent 会按这里的步骤执行。
 

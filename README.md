@@ -1,6 +1,8 @@
-# cursor-skills
+# 徐的 Cursor Skills（原创）
 
-Cursor Agent Skills 合集仓库。每个 skill 是一个目录，内含必需的 `SKILL.md`。
+**作者：[weixuan-XU](https://github.com/weixuan-XU)**（徐）
+
+本仓库收录我自己编写的 Cursor Agent Skills。每个 skill 是独立目录，内含必需的 `SKILL.md`；非 fork、非搬运合集。
 
 ## 已收录 Skills
 

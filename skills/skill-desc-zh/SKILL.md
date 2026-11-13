@@ -1,9 +1,14 @@
 ---
 name: skill-desc-zh
-description: "下载、安装、同步、复制或更新 Agent Skill 后，把 SKILL.md 的 description（列表简介）自动汉化。用户说装 skill、下载 skill、openskills install/sync、从 GitHub 拉 skills、汉化 skill 简介时必须使用。"
+description: "【徐原创】下载、安装、同步、复制或更新 Agent Skill 后，把 SKILL.md 的 description（列表简介）自动汉化。用户说装 skill、下载 skill、openskills install/sync、从 GitHub 拉 skills、汉化 skill 简介时必须使用。"
+metadata:
+  author: weixuan-XU
+  author_name: 徐
 ---
 
-# Skill 简介自动汉化
+# Skill 简介自动汉化（徐原创）
+
+作者：徐（[weixuan-XU](https://github.com/weixuan-XU)）
 
 装完 skill 不等于完成。只要本轮新增或更新了 skill，就立刻汉化其 `description`，让 Cursor skill 列表显示中文简介。
 
